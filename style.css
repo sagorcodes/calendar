@@ -1,0 +1,50 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-image: url(images/Background.avif);
+}
+h1 {
+  background-color: #3e4d6a;
+  /* width: max-content; */
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+}
+.calender {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 30px repeat(5, 50px);
+  row-gap: 20px;
+  column-gap: 10px;
+  margin: 0 auto;
+}
+.date {
+  background-color: #fff;
+  color: #3e4d6a;
+  border: solid #eaeaea;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+.date:hover {
+  background-color: #3e4d6a;
+  color: #fff;
+  transition: 0.3s;
+  font-size: 30px;
+}
+.day {
+  background-color: #3e4d6a;
+  color: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  font-weight: 700;
+}
